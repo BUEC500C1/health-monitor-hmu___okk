@@ -1,0 +1,5 @@
+PatientID Systolic Diatolic Pulse O2
+01 110 80 40 55
+02 100 75 96 69
+03 145 80 140 200
+04 110 91 20 97
