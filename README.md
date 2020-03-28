@@ -50,5 +50,6 @@ This is an example of the output.
 19:14:29   Blood Pressure   120  /  81
 19:14:29   Pulse  62
 
-
+# Data Base and AI
+The database pulls from the hmu_vitals.py module every 2 seconds. This saves the values into a text file and keeps track of the average of the most recent 5 values to be able to understand trends.
 
