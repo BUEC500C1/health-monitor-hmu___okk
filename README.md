@@ -53,3 +53,12 @@ This is an example of the output.
 # Data Base and AI
 The database pulls from the hmu_vitals.py module every 2 seconds. This saves the values into a text file and keeps track of the average of the most recent 5 values to be able to understand trends.
 
+data base file created will be called newpatient.txt
+data point     blood pressure     heart rate
+0               (135, 85)               93
+1               (156, 96)               65
+2               (146, 93)               91
+3               (178, 105)               90
+4               (143, 94)               73
+5               (105, 65)               89
+6               (168, 108)               60
