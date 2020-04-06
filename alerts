@@ -1,0 +1,10 @@
+# Copyright 2020 erinkate@bu.edu
+# EC500
+
+def alert(bp, pulse):
+  if bp(0) > 180: 
+  	print("alert!")
+  if bp(1) > 110:
+  	print("alert")
+  if pulse > 100:
+  	print("alert")
