@@ -20,7 +20,7 @@ def bp(sec):
   bpmin_sys = 90
   bpmax_sys = 180
 
-  hour = 3600    # 1 hr = 3600 seconds 
+  hour = 100    # 1 hr = 3600 seconds 
   listsize = hour//sec
 
   #initialize lists
@@ -55,7 +55,7 @@ def bp(sec):
 
 # Only called by bp
 def dia(bp_sys):
-  print(" bp sys ", bp_sys)
+  #print(" bp sys ", bp_sys)
   sys_ranges = sysranges()
   dia_ranges = diaranges()
   if bp_sys in sys_ranges[0]:
@@ -76,6 +76,8 @@ def dia(bp_sys):
     bp_dia = random.randrange(95,100)
   if bp_sys in sys_ranges[8]:
     bp_dia = random.randrange(100,110)
+  else:
+    bp_dia = 102
   return bp_dia
 
 # CAll pulse the same way as bp. Give the time step for data. If data is needed for each 1 second,
@@ -84,7 +86,7 @@ def pulse(sec):
   pulse_min = 60
   pulse_max = 100
 
-  hour = 3600
+  hour = 100
   listsize = hour//sec
 
   # initialize list

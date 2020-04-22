@@ -5,6 +5,14 @@ EC500 - Health Monitor App
 
 See our diagram with in/out requirements: [here](https://docs.google.com/drawings/d/1FXb8c75xwbaKGcj1nLO9n2uSQYTBvNJJKbBac1Zvgxg/edit?usp=sharing)
 
+# Instructions
+
+Current pulse limit set to 72 to showcase the alert function. 
+
+The display function calls all the different modules.  
+
+To run and display outputs simply run "diplay.py" file in python to showcase the functionality.  (takes a little bit to generate all points and display)
+
 # BP and Pulse Values
  
 hmu_vitals.py has code that returns blood pressure and pulse values. The amount of data returned may depend on the user, but the default is an hour worth of data. The code takes the increment and converts that into amount of data values to give back. For example: a 1 second increment returns 3600 values because one hour contains 3600 seconds. 
